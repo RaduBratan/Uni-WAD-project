@@ -61,19 +61,5 @@ namespace NET_Restaurant_API.Controllers
             await _employeeService.Delete(employeeId);
             return Ok(_employeeService.GetAll().Result);
         }
-
-        //[HttpGet("byEmail/{email}")]
-        //public IActionResult GetByEmail(string email)
-        //{
-        //    var result = _employeeService.GetDataMappedByEmail(email);
-        //    return Ok(result);
-        //}
-
-        //[HttpPost("create")]
-        //public IActionResult CreateEmployee(EmployeeDTO employee)
-        //{
-        //    _employeeService.Create(employee);
-        //    return Ok();
-        //}
     }
 }
