@@ -1,0 +1,13 @@
+.SidebarHeader {
+    background-color: #FEDDDD;
+}
+
+.Username {
+    padding-top: 2rem;
+    margin: 0;
+}
+
+.Email {
+    display: block;
+    padding-bottom: 2rem;
+}

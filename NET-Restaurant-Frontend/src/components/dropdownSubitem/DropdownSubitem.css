@@ -1,0 +1,5 @@
+.DropdownSubitem {
+    padding: 2rem;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}

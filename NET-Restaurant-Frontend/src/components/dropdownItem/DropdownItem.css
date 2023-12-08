@@ -1,0 +1,21 @@
+.DropdownChoice {
+    position: relative;
+    padding: 2rem;
+    margin: 0;
+    border-bottom: 1px solid black;
+    background-color: #A2B5FC;
+}
+
+.DropdownHidden {
+    display: none;
+    position: relative;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #EDF1FF;
+    z-index: 1;
+}
+
+.DropdownItem:hover .DropdownHidden {
+    display: block;
+}
