@@ -19,30 +19,6 @@ namespace NET_Restaurant_API.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<Employee>()
-            //    .Property(e => e.DateCreated)
-            //    .HasDefaultValueSql("getdate()");
-
-            //modelBuilder.Entity<Manager>()
-            //    .Property(e => e.DateCreated)
-            //    .HasDefaultValueSql("getdate()");
-
-            //modelBuilder.Entity<Restaurant>()
-            //    .Property(e => e.DateCreated)
-            //    .HasDefaultValueSql("getdate()");
-
-            //modelBuilder.Entity<Ingredient>()
-            //    .Property(e => e.DateCreated)
-            //    .HasDefaultValueSql("getdate()");
-
-            //modelBuilder.Entity<Recipe>()
-            //    .Property(e => e.DateCreated)
-            //    .HasDefaultValueSql("getdate()");
-
-            //modelBuilder.Entity<User>()
-            //    .Property(e => e.DateCreated)
-            //    .HasDefaultValueSql("getdate()");
-
             modelBuilder.Entity<Restaurant>()
                 .HasOne(r => r.Manager)
                 .WithOne(m => m.Restaurant)
