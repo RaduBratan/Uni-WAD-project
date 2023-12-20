@@ -1,0 +1,8 @@
+.InputField {
+    display: flex;
+}
+
+.InputField span {
+    margin-left: 3rem;
+    margin-right: 1rem;
+}

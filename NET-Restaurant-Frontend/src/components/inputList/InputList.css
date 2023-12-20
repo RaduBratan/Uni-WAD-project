@@ -1,0 +1,4 @@
+.InputList {
+    display: flex;
+    flex-direction: column;
+}
