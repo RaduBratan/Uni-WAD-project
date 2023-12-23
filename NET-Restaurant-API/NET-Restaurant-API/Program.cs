@@ -13,6 +13,15 @@ var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 var builder = WebApplication.CreateBuilder(args);
 
+//repositories
+//Employee repository
+builder.Services.AddTransient<IDatabaseRepository<Employee>, EmployeeRepository>();
+
+//Ingredient repository
+builder.Services.AddTransient<IDatabaseRepository<Ingredient>, IngredientRepository>();
+
+builder.Services.AddTransient<IEmployeeService, EmployeeService>();
+
 // Add services to the container.
 
 builder.Services.AddCors(options =>
