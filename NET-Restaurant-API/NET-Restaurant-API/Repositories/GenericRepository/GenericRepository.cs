@@ -88,13 +88,11 @@ namespace NET_Restaurant_API.Repositories.GenericRepository
         public TEntity FindById(object id)
         {
             return _table.Find(id);
-           // return _table.FirstOrDefault(x => x.Id.Equals(id));
         }
 
         public async Task<TEntity> FindByIdAsync(object id)
         {
             return await _table.FindAsync(id);
-           // return await _table.FirstOrDefault(x => x.Id.Equals(id));
         }
 
         //Save
