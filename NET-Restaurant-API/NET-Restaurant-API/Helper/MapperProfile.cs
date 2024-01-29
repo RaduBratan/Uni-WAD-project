@@ -26,7 +26,6 @@ namespace NET_Restaurant_API.Helper
             CreateMap<Ingredient, IngredientResponseDTO>();
             CreateMap<RecipeIngredient, RecipeIngredientDTO>();
 
-
             CreateMap<EmployeeCreateDTO, Employee>();
             CreateMap<EmployeeResponseDTO, Employee>();
             CreateMap<ManagerCreateDTO, Manager>();
