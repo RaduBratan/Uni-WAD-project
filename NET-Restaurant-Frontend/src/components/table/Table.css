@@ -1,28 +1,36 @@
 .Table {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
+  border-spacing: 0;
+  border-collapse: separate;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid #ede0df;
   height: 1rem;
-  margin-top: 10rem;
+  margin: 4rem 0 0 0;
+  cursor: pointer;
 }
 
 .Table td,
 .Table th {
-  border: 1px solid #ddd;
-  padding: 8px;
+  padding: 1.5rem;
+}
+
+table.rounded-corners th:not(:last-child),
+table.rounded-corners td:not(:last-child) {
+ border-right: 1px solid black;
 }
 
 .Table tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #2f2525;
 }
 
-.Tabletr:hover {
-  background-color: #ddd;
+.Table tr:hover {
+  background-color: #433535;
 }
 
 .Table th {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   text-align: left;
-  background-color: #04aa6d;
+  background-color: #5c3f3f;
   color: white;
 }

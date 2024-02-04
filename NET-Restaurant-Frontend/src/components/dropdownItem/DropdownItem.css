@@ -1,9 +1,10 @@
 .DropdownChoice {
   position: relative;
   padding: 2rem;
-  margin: 0;
-  border-bottom: 1px solid black;
-  background-color: #a2b5fc;
+  margin: 2px 0 0 2px;
+  border-radius: 0 12rem 12rem 0;
+  background-color: #2f2525;
+  cursor: pointer;
 }
 
 .DropdownHidden {
@@ -12,7 +13,8 @@
   left: 0;
   margin: 0;
   width: 100%;
-  background-color: #edf1ff;
+  background-color: #5c3f3f;
+  border-radius: 0 2rem 2rem 0;
   z-index: 1;
 }
 

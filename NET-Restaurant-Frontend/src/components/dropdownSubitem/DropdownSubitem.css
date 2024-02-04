@@ -1,5 +1,9 @@
 .DropdownSubitem {
-  padding: 2rem;
-  border-bottom: 1px solid black;
+  padding: 1rem;
   cursor: pointer;
+  border-radius: 0 12rem 12rem 0;
+}
+
+.DropdownSubitem:hover {
+  background-color: #433535;
 }

@@ -1,8 +1,27 @@
 .InputField {
   display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+input[type="number"] {
+  border: none;
+  outline: none;
+  font-family: inherit;
+  border-radius: 2rem;
+  font-size: 1rem;
+  box-sizing: border-box;
+  opacity: 0.8;
+  cursor: pointer;
+  padding: 1rem;
 }
 
 .InputField span {
-  margin-left: 3rem;
-  margin-right: 1rem;
+  width: 12em;
 }

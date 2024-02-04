@@ -1,4 +1,7 @@
 .InputList {
   display: flex;
+  align-items: center;
+  justify-content: start;
   flex-direction: column;
+  margin-left: 4em;
 }
